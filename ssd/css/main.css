@@ -1,0 +1,285 @@
+/* CSS Document */
+
+/*居中盒子*/
+.container{
+	width:990px;
+	margin:0 auto;
+	overflow:hidden;
+}
+/*盒子*/
+.header{
+	height:150px;
+	background-color:#EBE7E4;
+	border-bottom:5px solid black;
+}
+.header .logo{
+	height:100px;
+	margin:25px 0;
+	float:left;
+}
+.header .nav{
+	float:right;
+	overflow:hidden;
+	margin:75px 0 25px 0;
+}
+.nav li{
+	float:left;
+	margin-right:20px;
+	overflow:hidden;
+}
+.nav li a{
+	float:left;
+	width:60px;
+	height:50px;
+	text-align:center;
+	color:#756F6B;
+}
+.nav li img{
+	float:right;
+	padding-top:10px;	
+}
+/*广告图片*/
+.ad{
+	height:600px;
+	background:url(../images/ad.png) no-repeat center;
+	background-color:#EBE7E4;	
+}
+/*内容*/
+.content{
+	/* height:4000px; */
+	background-color:#EBE7E4;
+}
+.content .container{
+	background-color:#fff;
+	padding-bottom:40px;
+}
+.top .box1{
+	overflow:hidden;
+	padding-top:15px;
+}
+.box1 li{
+	width:330px;
+	height:215px;
+	float:right;
+	border:1px solid #ccc;
+	text-align:center;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.box1 li img{
+	height:120px;
+	margin:5px 0;
+	padding:1px;
+}
+.box1 li p{
+	height:50px;
+	width:230px;
+	font-size:16px;
+	text-align:center;
+	margin-left:50px;
+}
+.box1 li .more{
+	height:18px;
+	position:relative;
+	right:-120px;
+}
+.middle{
+	overflow:hidden;
+	padding:22px 0 25px 0;
+	background-color:#fff;
+}
+.middle .box2{
+	width:470px;
+	float:left;
+}	
+.middle .box3{
+	width:520px;
+	float:right;
+}
+.box3 .box3_top{
+	overflow:hidden;
+}
+.box3_top img{
+	float:left;
+}
+.foot{
+	border-top:15px solid black;
+	overflow:hidden;
+	background-color:#F0EFF1;
+}
+.foot .box4{
+	overflow:hidden;
+	width:565px;
+	padding-left:30px;
+	float:left;
+}	
+.foot .box4>li{
+	float:left;
+	height:250px;
+	width:140px;
+	/* padding-right:10px; */
+}
+.box4>li ul h3{
+	font-size:18px;
+	margin:35px 0 15px 0;
+}
+.box4>li ul li a{
+	color:#777777;
+}
+.foot{ overflow:hidden;}
+.foot .foot_right{
+	float:right;
+	width:395px;
+}
+.foot_right .chat{
+	width:200px;
+	height:250px;
+	float:left;
+	/* background-color:blue; */
+}
+.foot_right .chat img{
+	margin:15px 40px 30px 40px;
+}
+.foot_right .chat h3{
+	color:#999;
+	font-size:16px;
+}
+.foot_right .ul{
+	
+	margin-left:40px;
+	oveflow:hidden;
+}
+.foot_right .chat ul li{
+	float:left;
+	width:60px;
+	height:24px;
+	line-height:24px;
+	background:url(../images/shashidan_48.png) no-repeat right;
+	padding-right:10px;
+	font-size:12px;
+	color:#999;
+	cursor:pointer;
+}
+.foot_right .chat ul li.last{
+	width:220px;
+	background:none;
+	font-size:16px;
+	margin-top:10px;
+}
+.foot_right .chat ul li.last span{
+	background:url(../images/shashidan_48.png) no-repeat right;
+	font-size:12px;
+	padding-right:10px;
+}
+.foot_right .mark{
+ 	width:170px;
+	height:250px;
+ 	float:right;
+}
+.foot_right .mark .img1{
+	padding:15px 0 8px 0;
+}
+.foot_right .mark .img3{
+	padding-top:8px;
+}
+/*内容里面的下面重复的四块*/
+.banner{
+	background-color:#F3F1F2;
+	margin:15px 0;
+	text-align:center;
+}
+.banner h1{
+	height:30px;
+	font-size:24px;
+	padding-top:27px;
+}
+.banner p{
+	height:40px;	
+}
+.images{
+	overflow:hidden;
+	background-color:#FAFAFA;
+}
+.images .images_left{
+	float:left;
+	width:293px;
+	height:606px;
+}
+.images .images_right{
+	float:right;
+	width:697px;
+}
+.images_right ul {
+	overflow:hidden;
+}
+.images_right ul li{
+	height:303px;
+	width:225px;
+	margin-left:5px;
+	float:left;
+}
+.images_right ul img{
+	height:222px;
+	padding:1px;
+	border:1px solid #ccc;
+}
+.images_right ul span{
+	display:block;
+	height:60px;
+	width:100px;
+	font-size:16px;
+	margin-left:50px;
+	text-align:center;
+	margin-top:21px;
+	
+}
+/*尾部*/
+.footer{
+	height:155px;
+	background-color:#EBE7E3;
+	border-top:5px solid black;
+	overflow:hidden;
+}
+.footer span{
+	height:155px;
+	float:left; 
+}
+.footer .left img{
+	height:100px;
+	margin:35px 0 20px 0;
+}
+.footer .center{
+	width:220px;
+	margin:55px 40px 20px 30px;
+}
+.footer .center img{
+	height:80px;
+	width:70px;	
+}
+.footer .right{
+	width:440px;
+}
+
+.right .right_top ul{
+	overflow:hidden;
+}
+.right .right_top ul li{
+     float:left; 
+     margin:20px 0 30px 11.5px;	
+}
+.right .right_top ul li a{
+	float:left;
+	width:70px;
+	height:40px;
+	text-align:center;
+	color:#756F6B;
+	font-size:12px;
+}
+.right .right_top ul li a.except{
+	width:50px;
+}
+.right .right_top ul li img{
+	float:right;
+	padding-top:10px;	
+}
+

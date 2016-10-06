@@ -1,0 +1,293 @@
+/* CSS Document */
+
+/*居中容器*/
+.container{
+	width:1170px;
+	margin:0 auto;
+	overflow:hidden;
+}
+/*头部*/
+.header{
+	height:170px;
+}
+/*头部上部分*/
+.header .header_top{
+	background-color:#5D5D58;
+}
+.header_top ul{
+	overflow:hidden;
+}
+.header_top ul li{
+	float:left;
+}
+.header_top ul li a{
+	height:36px;
+	display:block;
+	line-height:36px;
+	color:#cccccc;
+	padding:0 15px;
+}
+.header_top ul li a:hover{
+	background-color:#000;
+}
+.header_top ul li a.select{
+	background-color:#fff;
+	color:#000;
+}
+
+/*头部中间部分*/
+.header .header_middle{
+	overflow:hidden;	
+}
+.header_middle span{
+	height:80px;
+	width:167px;
+	float:left;
+	background:url(../images/logo_new.png) no-repeat center;
+}
+.header_middle ul{
+	float:right;
+}
+.header_middle ul li{
+    height:80px;
+	line-height:80px;
+	float:left;
+}
+.header_middle ul li a{
+	color:#333;
+	margin-right:15px;
+	font-size:14px;
+}
+.header_middle ul li a:hover{
+	text-decoration:underline;
+}
+.header_middle ul li img{
+	margin-top:21px;
+	cursor:pointer;
+}
+/*头部下面部分*/
+.header .header_bottom{
+	background-color:#F7F7F7;
+}
+.header_bottom ul{
+	float:left;
+	overflow:hidden;
+}
+.header_bottom ul li{
+	float:left;
+}
+.header_bottom ul li a{
+	height:54px;
+	line-height:52px;
+	display:block;
+	margin-right:40px;
+	color:#323232;
+}
+.header_bottom ul li a:hover{
+	height:52px;
+	color:red;
+	border-bottom:2px solid red;	
+}
+.header_bottom ul li a.select{
+	background-color:#fff;
+	padding:0 25px;	
+}
+
+.header_bottom table{
+	float:right;
+	border-spacing:0;
+	margin:9px 0;
+}
+.header_bottom table input{
+	border:0;
+	height:36px;
+	width:150px;
+	font-size:16px;
+	color:#333;
+}
+.header_bottom table span{
+	height:36px;
+	width:32px;
+    float:right;
+	background:url(../images/icon_find.png) no-repeat left;
+	background-color:#fff;
+}
+/*广告*/
+.ad{
+	height:540px;
+	background-color:#666666;
+	background:url(../images/hc2016_banner_bg.jpg) no-repeat center;
+	position:relative;	
+}
+.ad div{
+	width:709px;
+	height:300px;
+	margin:0 auto;
+	padding-top:120px;
+}
+.ad span a{
+	display:block;
+	width:147px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:18px;
+	color:#fff;
+	background-color:#B02D2E;
+	margin-top:27px;
+	border-radius:5px;
+}
+/*栏目*/
+.banner{
+	width:1170px;
+	margin:15px auto;
+	background-color:#F7F7F7;
+}
+.banner a{
+	display:inline-block;
+	text-align:center;
+	height:58px;
+	line-height:58px;
+	margin-right:30px;
+	font-size:18px;
+}
+.banner a.title{
+	width:120px;
+	background:url(../images/homepage_news_01.png) no-repeat right;	
+}
+.banner a:hover{
+	text-decoration:underline;
+}
+/*内容*/
+.images ul{
+	overflow:hidden;
+}
+.images ul li{
+	width:370px;
+	height:400px;
+	float:left;
+}
+.images ul li.split{
+	width:30px;
+}
+.images img{
+	width:370px;
+}
+.images h3{
+	margin:15px 0;
+	font-size:18px;
+}
+.images h3 a:hover{
+	text-decoration:underline;
+}
+.wrap .vidio{
+	height:576px;
+	margin:25px 0;	
+}
+/*活动*/
+.activity{
+	margin-top:20px;
+}
+.activity h2{
+	text-align:center;
+	height:60px;
+	line-height:60px;
+}
+.activity h3{
+	height:60px;
+	line-height:60px;
+}
+.activity h3 a:hover{
+	text-decoration:underline;
+}
+.activity ul{
+	overflow:hidden;
+}
+.activity ul li{
+	width:370px;
+	height:197px;
+	float:left;
+}
+.activity ul li.split{
+	width:30px;
+}
+.activity ul li img{
+	float:left;	
+	width:113px;
+	height:114px;
+}
+.activity ul li span{
+	float:right;
+	width:250px;
+	height:114px;
+	line-height:25px;
+}
+/*底部*/
+.footer{
+/* 	height:420px; */
+	background-color:#272727;
+}
+.footer .footer_top{
+	width:1170px;
+    margin:40px 0 20px 0;
+	overflow:hidden;
+}
+.footer_top dl{
+	height:320px;
+	float:left;
+	width:200px;
+}
+.footer_top dl.last{
+	width:370px;
+	float:right;
+}
+.footer_top dl.last a img{
+	width:30px;
+	height:30px;
+	margin-right:20px;
+}
+.footer_top dl dt{
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+	padding-bottom:15px;
+}
+.footer_top dl dd{
+	padding-bottom:13px;
+	color:#fff;
+}
+.footer_top dl dd a{
+	color:#FFFFFF;
+}
+.footer_top dl dd a:hover{
+	text-decoration:underline;
+}
+.footer .footer_bottom p{
+	font-size:14px;
+	height:40px;
+}
+.footer .footer_bottom p span{
+	margin-right:300px;
+	color:#fff;
+}
+
+/*固定侧栏小图标*/
+.sidebar{
+	position:fixed;
+    top:250px;
+	right:0px;		
+}
+.sidebar img{
+	display:block;
+	margin-bottom:5px;	
+}
+
+
+
+
+
+
+
+
+
+

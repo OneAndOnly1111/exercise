@@ -1,0 +1,53 @@
+/* 头部 */
+.header{background-color: #FBF9FA;}
+.center{ width:950px; margin:0 auto; overflow:hidden;} /*居中的盒子*/
+.header img.logo{ padding: 13px 0; float: left;}
+.header .logo_r{ width: 300px; float: left; padding: 30px 0 20px 10px;}
+.logo_r h1{height: 43px; color:#333;}
+.logo_r p{height: 22px;}
+.header .h_right{ float: right;}
+.h_right img{ padding:25px 10px 6px 0; cursor:pointer;}
+.h_right img.qr_code{ width: 65px; height:70px; }
+
+/*导航*/
+.nav{ background-color:#992224;}
+.nav ul{ overflow:hidden;}
+.nav ul li{ float:left;}
+.nav ul li a{ display:inline-block; padding:5px 25px 5px 25px; color:#fff;}
+.nav ul li a:hover{ background-color:#FF1411;}
+
+/* 内容 */
+.content{ background:url(../images/bg_02.png) repeat center; color:#431F0F;}
+.content>.center>img{float:right;}
+.content .con_left{ width:494px;float:left;}
+
+/*提货须知*/
+.no_left ul li{ padding:18px 0 18px 0; border-bottom:1px solid #000;font-size:14px; color:#333;}
+.no_left ul li strong{ color:#FC0903;}
+
+/*提货步骤*/
+.se_left ul li{ overflow:hidden; border-bottom:1px solid #000;}
+.se_left ul li img{ float:left; padding:15px 0; }
+.se_left ul li span{ float:left;width:430px; height:46px;padding:25px 0 5px 5px;}
+
+/*其它提货方式*/
+.ot_left ul li{ overflow:hidden;padding-top:45px; color:#725849;}
+.ot_left ul li img{ float:left; padding-right:15px; }
+.ot_left ul li span{ font-size:14px;}
+
+/*多卡提货*/
+.mu_left{ padding-top:55px;}
+.mu_left input{ width:120px; height:25px; margin-bottom:40px;}
+.mu_left span{ display:inline-block; width:24px; height:17px; line-height:17px; text-align:center; border:1px solid #5A0201; border-radius:3px; background-color:#FEE2E1; margin:0 20px 0 10px; cursor:pointer;}
+.mu_left p{ width:260px; margin:15px auto;}
+.mu_left p input{ width:76px; height:26px; background-color:#FEE1E3;border:1px solid #5A0201; border-radius:4px; margin-right:50px; cursor:pointer; font-size:16px; color:#5A0201;}
+.mu_left p a{ display:inline-block;width:76px; height:24px; background-color:#FEE1E3;border:1px solid #5A0201; border-radius:4px; text-align:center; color:#5A0201;}
+
+/*在线提货*/
+.on_left dl{ padding-top:35px; text-align:center;}
+.on_left dd input{ width:160px; height:25px; margin-bottom:25px;}
+.on_left span{display:block; width:280px; margin:20px auto;}
+.on_left span input{ width:76px; height:26px; background-color:#FEE1E3;border:1px solid #5A0201; border-radius:4px; margin-right:50px; margin-left:55px; font-size:16px;color:#5A0201; cursor:pointer;}
+.on_left span a{ display:inline-block;width:76px; height:24px; background-color:#FEE1E3;border:1px solid #5A0201; border-radius:4px; text-align:center; color:#5A0201;}
+.on_left p{ font-size:14px;width:460px; margin:15px auto;}
+.on_left strong{ display:block; width:385px; font-size:14px; text-align:center; margin:15px auto; color:#FC3B34;}
